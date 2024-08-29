@@ -10,15 +10,15 @@ public class main {
         Set<Person> pe = new LinkedHashSet<>();
 
         pe.add(new Person("mello", 20));
-        pe.add(new Person("Boby", 21));
-        pe.add(new Person("Charan", 23));
+        pe.add(new Person("ram", 21));
+        pe.add(new Person("kittu", 23));
 
         Iterator<Person> iterator = pe.iterator();
         while (iterator.hasNext()) {
             Person p = iterator.next();
             System.out.println(p);
         }
-        
+
     }
 }
 
