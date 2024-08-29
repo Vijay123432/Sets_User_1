@@ -14,6 +14,7 @@ public class main {
         pe.add(new Person("kittu", 23));
 
         Iterator<Person> iterator = pe.iterator();
+        
         while (iterator.hasNext()) {
             Person p = iterator.next();
             System.out.println(p);
