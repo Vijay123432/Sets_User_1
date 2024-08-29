@@ -18,6 +18,7 @@ public class main {
             Person p = iterator.next();
             System.out.println(p);
         }
+        
     }
 }
 
